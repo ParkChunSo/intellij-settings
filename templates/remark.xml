@@ -1,0 +1,6 @@
+<templateSet group="remark">
+  <template name="classRemark" value="/**&#10; * $class$ 설명&#10; *&#10; * @author 박춘소(cnsth1009) on $date$&#10;*/" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
+  </template>
+</templateSet>
